@@ -5,6 +5,10 @@ print("Your age: ", age)
 if age < 10:
     print("Baby")
 elif age < 18:
-    print("Teenager")
+    marriage = input("working or school? ")
+    if marriage == "school":
+        print("Pupil")
+    else:
+        print("Teen labor")
 else:
     print("Adult")
